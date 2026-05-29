@@ -419,7 +419,7 @@ function Hero() {
             </p>
           </div>
           <h1 className="max-w-3xl text-balance font-serif text-6xl font-normal leading-[0.9] tracking-[-0.075em] text-foreground sm:text-8xl lg:text-[7.2rem]">
-            Mohammed Bilal
+            Mohammed Bilal Manna
           </h1>
           <p className="mt-8 max-w-xl text-balance text-2xl font-medium leading-tight tracking-[-0.035em] text-foreground/88 sm:text-3xl">
             Building reliable web systems, payment workflows, and AI-assisted
@@ -933,9 +933,9 @@ function ExploringExperience() {
               <span className="absolute -left-[29px] top-1 size-3 rounded-full border-2 border-accent bg-background" />
               <p className="font-semibold">IAAHE Internship</p>
               <p className="mt-2 leading-7 text-muted-foreground">
-                Contributed with a product/system mindset: translating
-                requirements into usable interfaces, maintainable code paths,
-                and reliable delivery habits.
+                Collaborated with a cross-functional team to design responsive
+                web pages, reusable UI components, and 60+ logo concepts for an
+                educational organization using WordPress and Figma workflows.
               </p>
             </div>
           </div>
