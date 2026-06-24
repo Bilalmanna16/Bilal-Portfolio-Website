@@ -7,7 +7,7 @@ export const siteConfig = {
   email: "bilalmanna.work@gmail.com",
   github: "https://github.com/bilalmanna16",
   linkedin: "https://www.linkedin.com/in/bilalmanna16/",
-  resume: "/resume.pdf",
+  resume: "/resume",
   hayaaLive: "https://hayaabynoor.com/",
   hayaaGithub: "#",
   keywords: [

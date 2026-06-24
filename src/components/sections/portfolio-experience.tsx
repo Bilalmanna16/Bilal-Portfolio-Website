@@ -143,8 +143,13 @@ function GlobalAtmosphere() {
 }
 
 function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const isDark = theme !== "light";
+  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const isDark = mounted && resolvedTheme === "dark";
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <button
@@ -440,12 +445,7 @@ function Hero() {
               </a>
             </Button>
             <Button asChild variant="secondary">
-              <a
-                href={siteConfig.resume}
-                download="Mohammed Bilal Manna - Final Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={siteConfig.resume}>
                 Resume
               </a>
             </Button>
